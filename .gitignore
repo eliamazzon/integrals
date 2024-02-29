@@ -1,0 +1,58 @@
+# Ignore files and directories starting with a dot
+.*
+
+# Ignore files with "tdl" in the name
+*tdl*
+
+#include .gitignore
+!.gitignore
+
+# Ignore compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore generated files
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore dependencies
+/node_modules
+/vendor
+
+# Ignore environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore sensitive or private information
+*.secret
+
+# Ignore build and temporary directories
+/build/
+/temp/
+/dist/
+/out/
+
+#ignore Doxygen generated files
+html/
+latex/
